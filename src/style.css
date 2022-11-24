@@ -1,0 +1,251 @@
+#app {
+  width: 99vw;
+}
+
+.componentContainer {
+  height: 500px;
+  margin: 1em;
+}
+
+#hero {
+  background-color: black;
+  margin: 0px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://images.unsplash.com/photo-1502208327471-d5dde4d78995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80');
+  height: 600px;
+  background-size: cover;
+}
+
+#hero {
+  display: flex;
+  margin-bottom: 13em;
+}
+
+#heroLeft {
+  margin: 1em;
+  padding: 3em;
+  width: 55%;
+  color: white;
+}
+
+#heroRight {
+  margin: 1em;
+  padding: 3em;
+  width: 35%;
+  height: 650px;
+  border-radius: 12px;
+  background-image: url('https://lh3.googleusercontent.com/pw/AL9nZEXvTO4Ut8H7UXbUwwnuc4n9z0qc9YqpZ03qyPIOGB8wp6JBISSFeftknPJYGD9z2uKgpyC1rxwH3BYq6TGsCYKCnUqANoZz7_F0RMgDdxZw3MMBJ9zViePmvKAB9H7Kxusy2cODB1UJ1kgkbMbEfLHajA=w744-h1321-no?authuser=0');
+  background-size: cover;
+}
+
+#register {
+  padding: 5em;
+  height: fit-content;
+}
+
+#footer {
+  height: 100px;
+}
+
+input {
+  margin-bottom: 3em !important;
+}
+
+#requirements {
+  display: flex;
+  margin-top: 5em;
+  height: fit-content;
+}
+
+#reqLeft {
+  margin: 1em;
+  padding: 3em;
+  width: 35%;
+  height: 650px;
+  border-radius: 12px;
+  background-image: url('https://lh3.googleusercontent.com/pw/AL9nZEUGcrbJAZxt9bKsduD6isOWPS0gTTy7ZqUVQnf3UDN4PQpsK9WpkmWckAnEUnqPVa8any6rQRs3NoNo20W0QFAMbjLSkO6_9zwaYW7FK4V-MXN-KPTCyEMUOEqvRHUHbjqV0Wu2wiv06rHooMvNSOFH0Q=w744-h1321-no?authuser=0');
+  background-size: cover;
+}
+
+#reqRight {
+  margin: 1em;
+  padding: 3em;
+  width: 55%;
+}
+
+#connect {
+  display: flex;
+  padding: 2em;
+  height: fit-content;
+  margin-top: 5em;
+}
+
+#connectLeft {
+  margin: 1em;
+  padding: 3em;
+  width: 55%;
+}
+
+#connectRight {
+  margin: 1em;
+  padding: 3em;
+  width: 35%;
+  height: 650px;
+  border-radius: 12px;
+  background-image: url('https://lh3.googleusercontent.com/pw/AL9nZEVwtZxyJ60LSyi7oyTRf89IX5YrLraKCCVuWtrLEJQZFlHzeisUs9057zN-kYzRomZ7z4PLLUOu_L8sMobWL4AtcRW488OCDSXHZdRdt4bsblwd-hZbMrlbUhWQqlHnBv36FPCRBfBNFiDxg_LwcGH5EQ=w744-h1321-no?authuser=0');
+  background-size: cover;
+}
+
+#engage {
+  display: flex;
+  margin-top: 5em;
+
+  height: fit-content;
+}
+
+#engageLeft {
+  margin: 1em;
+  padding: 3em;
+  width: 35%;
+  height: 650px;
+  border-radius: 12px;
+  background-image: url('https://lh3.googleusercontent.com/pw/AL9nZEXwzuNbAnCnzQN75kDo6yEW9F5ErkjazlcndNTUi7hkAT12jhNePCbrb843Rn6MYtO-nQI_CR6EymhNq3mTyvIHw7AHJ3jVS7dA4IAcsv-anvHGQ2zxju-NuVsNs961s9rXxJ7UPbTFhoWwkVdeyjQQmA=w2348-h1321-no?authuser=0');
+  background-position: left -250px bottom 0px;
+  background-size: cover;
+}
+
+#engageRight {
+  margin: 1em;
+  padding: 3em;
+  width: 55%;
+}
+
+#whyFlorida {
+  display: flex;
+  padding: 2em;
+  height: fit-content;
+  margin-top: 5em;
+}
+
+#whyFloridaLeft {
+  margin: 1em;
+  padding: 3em;
+  width: 55%;
+}
+
+#whyFloridaRight {
+  margin: 1em;
+  padding: 3em;
+  width: 35%;
+  height: 650px;
+  border-radius: 12px;
+  background-image: url('https://lh3.googleusercontent.com/pw/AL9nZEX0DXCrHKSnDj4-mFUZ0UoqF0ZPPZavS4jFZC7EKYTdrplcHopeHTrMbqoPW-vqzL3ejjxqVmxkNn_EnJEUzzgBKnnZxH6qsgc7U7m77yvuG6Lrzkb7Wulf-eHro8wKOcbUcLfuOW0jSUpEu0nKt1fN6A=w2348-h1321-no?authuser=0');
+  background-position: left -290px bottom 0px;
+  background-size: cover;
+}
+
+#registerForm {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#registerForm div {
+  width: 40%;
+  margin-right: 3em;
+}
+
+#registerButton {
+  margin-top: 3em;
+}
+
+.titleOne {
+  font-size: 7em;
+}
+
+.titleTwo {
+  font-size: 8em;
+}
+
+/* breakpoints */
+@media only screen and (max-width: 600px) {
+  
+  .titleOne {
+    font-size: 3em;
+  }
+
+  .titleTwo {
+    font-size: 3em;
+  }
+
+  #hero {
+    display: block;
+    margin-bottom: 0em;
+    height: fit-content;
+    margin-top: -20px;
+  }
+
+  #heroRight {
+    width: 90vw;
+    display: none;
+  }
+
+  #requirements {
+    display: block;
+    margin: 0;
+  }
+
+  #reqLeft {
+    width: 90vw;
+  }
+  #reqRight {
+    width: 90vw;
+  }
+
+  #connect {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0;
+  }
+  #connectLeft {
+    width: 90vw;
+    margin: 0;
+  }
+  #connectRight {
+    width: 85vw;
+    margin: 0;
+  }
+
+  #engage {
+    display: block;
+    margin: 0;
+  }
+  #engageLeft {
+    width: 90vw;
+  }
+  #engageRight {
+    width: 90vw;
+  }
+
+  #whyFlorida {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0;
+  }
+  #whyFloridaLeft {
+    width: 90vw;
+    margin: 0;
+  }
+  #whyFloridaRight {
+    width: 85vw;
+    margin: 0;
+  }
+
+  #registerForm div {
+    width: 100%;
+    margin-right: 3em;
+  }
+
+  #register {
+    padding: 1em;
+  }
+}
