@@ -215,7 +215,7 @@ export default function App() {
           <li>D Awet</li>
           <li>Luwam</li>
           <li>Henos</li>
-          <li>Henos' Friend</li>
+          <li>Biniam</li>
         </ul>
       </div>
     </div>
